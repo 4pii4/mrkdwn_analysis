@@ -4,8 +4,8 @@ from collections import defaultdict, Counter
 
 
 class MarkdownAnalyzer:
-    def __init__(self, markdown_text, encoding='utf-8'):
-        self.lines = markdown_text.readlines()
+    def __init__(self, markdown_text):
+        self.lines = markdown_text.splitlines()
             
     def identify_headers(self):
         result = defaultdict(list)
