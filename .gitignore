@@ -1,3 +1,4 @@
 build/
 dist/
 markdown_analysis.egg-info/
+.idea/

@@ -2,10 +2,10 @@ import re
 import requests
 from collections import defaultdict, Counter
 
+
 class MarkdownAnalyzer:
-    def __init__(self, file_path, encoding='utf-8'):
-        with open(file_path, 'r', encoding=encoding) as file:
-            self.lines = file.readlines()
+    def __init__(self, markdown_text, encoding='utf-8'):
+        self.lines = markdown_text.readlines()
             
     def identify_headers(self):
         result = defaultdict(list)

@@ -11,7 +11,7 @@ setup(
     long_description_content_type="text/markdown",
     author='yannbanas',
     author_email='yannbanas@gmail.com',
-    url='https://github.com/yannbanas/mrkdwn_analysis',
+    url='https://github.com/4pii4/mrkdwn_analysis',
     packages=find_packages(),
     install_requires=[
         'urllib3',
